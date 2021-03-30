@@ -2,7 +2,7 @@ public class Solution859 {
     public boolean buddyStrings(String a, String b) {
         if (a.length() == b.length()) {
             char[] charsA = a.toCharArray();
-            char[] charsB = a.toCharArray();
+            char[] charsB = b.toCharArray();
             int diff1 = 0;
             int diff2 = 0;
             int diffNum = 0;
